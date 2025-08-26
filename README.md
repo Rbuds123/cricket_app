@@ -1,6 +1,6 @@
 # Cricket App
 
-Cricket App is a general-purpose application designed to help users calculate statistics and gain information about cricket and their favorite teams. Built as a quick 2-day mini project to explore and understand WinUI, this app provides useful features for cricket enthusiasts.
+This is a general-purpose application designed to help users calculate statistics and gain information about cricket and their favorite teams. Built as a quick 2-day mini project to explore and understand WinUI, this app provides useful features for cricket enthusiasts.
 
 ## Features
 
