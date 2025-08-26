@@ -66,7 +66,7 @@ namespace cricket_app
                 TextAlignment = TextAlignment.Center
             };
 
-            // Calculate button for this team
+           
             Button calculate = new Button
             {
                 Content = $"Calculate Team {currentTeamIndex}",
@@ -75,7 +75,7 @@ namespace cricket_app
             };
             calculate.Click += TeamCalculate_Click;
 
-            // Add everything to panel
+            
             run_rate_pannel.Children.Add(runs_scored);
             run_rate_pannel.Children.Add(overs_faced);
             run_rate_pannel.Children.Add(runs_conceded);
@@ -104,7 +104,7 @@ namespace cricket_app
                 int bowled = int.Parse(inputs[3].Text);
 
                 double result = net_run_rate(runs, faced, conceded, bowled);
-                // Call your existing Generate method
+                
                 if (int.TryParse(teams.Text, out int teamNumber))
                 Generate(teamNumber, result);
                 currentTeamIndex++;
