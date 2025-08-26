@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "cricket_app (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "cricket_app (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
