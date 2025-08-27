@@ -111,7 +111,7 @@ namespace cricket_app
             }
         }
 
-        private int Generate(int teamNumber, double run_rate)
+        private void Generate(int teamNumber, double run_rate)
         { 
 
             if (currentTeamIndex <= teamNumber)
@@ -124,11 +124,7 @@ namespace cricket_app
                     Margin = new Thickness(0, 10, 100, 0)
                 };
                 teamNum.Children.Add(teamBox);
-                return 1;
-            }
-            else
-            {
-                return 0;
+
             }
         }
     }
